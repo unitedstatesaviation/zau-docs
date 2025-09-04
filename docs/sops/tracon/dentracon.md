@@ -9,11 +9,4 @@ Denver TRACON's Connect ID is ```20T01```
 |120.35|Denver Approach (South)|
 
 ## Additional Resources
-[Denver International Airport (DEN)](docs/sops/denver.md)\
-[Buckley SFB (BKF)](docs/sops/bkf.md)\
-[Centennial Airport (APA)](docs/sops/apa.md)\
-[Colorado Air and Space Port (CFO)](docs/sops/cfo.md)\
-[Grand Junction Regional Airport (GJT)](docs/sops/gjt.md)\
-[Northern Colorado Regional Airport (FNL)](docs/sops/fnl.md)\
-[Pueblo Memorial Airport (PUB)](docs/sops/pub.md)\
-[Rocky Mountain Metropolitan Airport (BJC)](docs/sops/bjc.md)
+[Denver International Airport (DEN)](docs/sops/denver.md)

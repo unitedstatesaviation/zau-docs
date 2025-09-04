@@ -8,5 +8,4 @@ Colorado Springs TRACON's Connect ID is ```20T02```
 |124.0|Springs Approach|
 
 ## Additional Resources
-[City of Colorado Springs Municipal Airport (COS)](docs/sops/cos.md)\
-[Butts Army Airfield (FCS)](docs/sops/fcs.md)
+[City of Colorado Springs Municipal Airport (COS)](docs/sops/cos.md)
