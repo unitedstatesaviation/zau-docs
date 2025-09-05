@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Layout from '@theme/Layout'
+import Layout from '@theme/Layout';
 
-<Layout title="METAR" description="Hello React Page">
 export default function MetarViewer() {
   const [icao, setIcao] = useState("KORD");
   const [metar, setMetar] = useState("");
@@ -31,38 +30,37 @@ export default function MetarViewer() {
   }, []);
 
   return (
-    <div style={{ padding: 20, fontFamily: "sans-serif" }}>
-      <h1>METAR Viewer</h1>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          fetchMetar(icao);
-        }}
-        style={{ marginBottom: 12 }}
-      >
-        <input
-          value={icao}
-          onChange={(e) => setIcao(e.target.value.replace(/[^A-Za-z0-9]/g, "").toUpperCase())}
-          placeholder="ICAO (e.g. KORD)"
-          style={{ marginRight: 8, padding: 6 }}
-          maxLength={4}
-        />
-        <button type="submit" style={{ padding: "6px 12px" }}>
-          Get METAR
-        </button>
-      </form>
+    <Layout title="METAR" description="Hello React Page">
+      <div style={{ padding: 20, fontFamily: "sans-serif" }}>
+        <h1>METAR Viewer</h1>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            fetchMetar(icao);
+          }}
+          style={{ marginBottom: 12 }}
+        >
+          <input
+            value={icao}
+            onChange={(e) => setIcao(e.target.value.replace(/[^A-Za-z0-9]/g, "").toUpperCase())}
+            placeholder="ICAO (e.g. KORD)"
+            style={{ marginRight: 8, padding: 6 }}
+            maxLength={4}
+          />
+          <button type="submit" style={{ padding: "6px 12px" }}>
+            Get METAR
+          </button>
+        </form>
 
-      <pre style={{ whiteSpace: "pre-wrap", background: "#f5f5f5", padding: 12 }}>
-        {status === "idle"
-          ? "Enter an ICAO to fetch a METAR."
-          : status === "loading"
-          ? "Loading…"
-          : status === "error"
-          ? `Error: ${error}`
-          : metar || "No METAR found."}
-      </pre>
-    </div>
+        <pre style={{ whiteSpace: "pre-wrap", background: "#f5f5f5", padding: 12 }}>
+          {status === "idle"
+            ? "Enter an ICAO to fetch a METAR."
+            : status === "loading"
+            ? "Loading…"
+            : status === "error"
+            ? `Error: ${error}`
+            : metar || "No METAR found."}
+        </pre>
+      </div>
+    </Layout>
   );
-
-</Layout>
-}
