@@ -94,6 +94,11 @@ const config = {
             label: 'Docs',
           },
           {
+            href: 'src/pages/metar.js',
+            label:'Weather',
+            position: 'left',
+          },
+          {
             href: 'https://charts.zan.unitedstatesaviation.us',
             label: 'Charts',
             position: 'right',
