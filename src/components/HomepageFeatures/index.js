@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Welcome to Denver',
-  imgSrc: require('@site/static/img/ZDVb.png'),
+    title: 'Welcome to the Last Frontier',
+  imgSrc: require('@site/static/img/ZANb.png'),
     description: (
       <>
-        This is the website of the Virtual Denver ARTCC (ZDV)
+        America's Last Frontier (ZAN)
       </>
     ),
   },
@@ -18,11 +18,11 @@ function Feature({Svg, title, description}) {
   return (
     <div style={{ textAlign: 'center', margin: '0 auto' }}>
       <iframe
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSS_G8mqe97wY_PPbUy4rN237WjqZucaO9W3VVDiLQJ7rNtiadhU09jLm9mJ6Do2xobG5sDtURjNVeK/pubhtml?widget=true&amp;headers=false"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEC5fs3Np2pEulAIBlhCNuL8feIDhlkxkpK5VyF2kfZopdeLhkWOgO1t3wFtBkGCRRS5A30_lUR_rs/pubhtml?widget=true&amp;headers=false"
         width="100%"
         height="600"
         style={{ border: 'none' }}
-        title="Denver ARTCC Airports"
+        title="Anchorage ARTCC"
       />
     </div>
   );

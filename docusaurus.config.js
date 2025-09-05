@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Virtual Denver ARTCC',
-  tagline: 'ZDV',
+  title: 'USAA Anchorage ARTCC',
+  tagline: 'ZAB',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://zdv.unitedstatesaviation.us',
+  url: 'https://anchorage.unitedstatesaviation.us',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -81,10 +81,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Virtual Denver ARTCC',
+        title: 'Anchorage ARTCC',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/ZDVb.png',
+          src: 'img/ZANb.png',
         },
         items: [
           {
@@ -94,12 +94,12 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://charts.zdv.unitedstatesaviation.us',
+            href: 'https://charts.zan.unitedstatesaviation.us',
             label: 'Charts',
             position: 'right',
           },
           {
-            href: 'https://github.com/unitedstatesaviation/zdv-docs',
+            href: 'https://github.com/unitedstatesaviation/zan-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -124,6 +124,10 @@ const config = {
                 label: 'Main Website',
                 href: 'https://unitedstatesaviation.us',
               },
+               {
+                label: 'Denver',
+                href: 'https://denver.unitedstatesaviation.us',
+              },
               {
                 label: 'Honolulu',
                 href: 'https://honolulu.unitedstatesaviation.us',
@@ -139,12 +143,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/unitedstatesaviation/zdv-c',
+                href: 'https://github.com/unitedstatesaviation/zan-docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Virtual Denver ARTCC. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} USAA Virtual Anchorage ARTCC. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
