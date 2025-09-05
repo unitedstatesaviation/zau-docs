@@ -94,7 +94,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'src/pages/metar.js',
+            href: '/src/pages/metar.js',
             label:'Weather',
             position: 'left',
           },
