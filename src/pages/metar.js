@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
+import Layout from '@theme/Layout'
 
+<Layout title="METAR" description="Hello React Page">
 export default function MetarViewer() {
   const [icao, setIcao] = useState("KORD");
   const [metar, setMetar] = useState("");
@@ -61,4 +63,6 @@ export default function MetarViewer() {
       </pre>
     </div>
   );
+
+</Layout>
 }
