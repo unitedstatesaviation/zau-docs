@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
+import styles from "./index.module.css";
 import Layout from '@theme/Layout';
 
 export default function MetarViewer() {
-  const [icao, setIcao] = useState("KORD");
+  const [icao, setIcao] = useState("PANC");
   const [metar, setMetar] = useState("");
   const [status, setStatus] = useState("idle");
   const [error, setError] = useState("");
@@ -30,9 +31,9 @@ export default function MetarViewer() {
   }, []);
 
   return (
-    <Layout title="METAR" description="Hello React Page">
+    <Layout title="METAR" description="Weather">
       <div style={{ padding: 20, fontFamily: "sans-serif" }}>
-        <h1>METAR Viewer</h1>
+        <h1>Weather Lookup</h1>
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -43,12 +44,18 @@ export default function MetarViewer() {
           <input
             value={icao}
             onChange={(e) => setIcao(e.target.value.replace(/[^A-Za-z0-9]/g, "").toUpperCase())}
-            placeholder="ICAO (e.g. KORD)"
+            placeholder="ICAO (e.g. PANC)"
             style={{ marginRight: 8, padding: 6 }}
             maxLength={4}
           />
           <button type="submit" style={{ padding: "6px 12px" }}>
-            Get METAR
+            <button
+              type="submit"
+              style={{ padding: "6px 12px" }}
+              className="button button--secondary button--lg"
+            >
+              Get METAR
+            </button>
           </button>
         </form>
 
