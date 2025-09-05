@@ -48,14 +48,12 @@ export default function MetarViewer() {
             style={{ marginRight: 8, padding: 6 }}
             maxLength={4}
           />
-          <button type="submit" style={{ padding: "6px 12px" }}>
-            <button
-              type="submit"
-              style={{ padding: "6px 12px" }}
-              className="button button--secondary button--lg"
-            >
-              Get METAR
-            </button>
+          <button
+            type="submit"
+            style={{ padding: "6px 12px" }}
+            className="button button--secondary button--lg"
+          >
+            Get METAR
           </button>
         </form>
 
