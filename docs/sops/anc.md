@@ -14,4 +14,4 @@ Anchorage's Connect ID is ```30C01```
 |126.8|Lake Hood Tower|
 
 ## Additional Resources
-[Anchorage TRACON](docs/sops/tracon/anctracon.md)
+[Anchorage TRACON](docs/sops/anctracon.md)
