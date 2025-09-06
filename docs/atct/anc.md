@@ -2,10 +2,10 @@
 sidebar_position: 3
 ---
 
-# Ted Stevens Anchorage International Airport (ANC)
+# Chicago O'Hare International Airport (ORD)
 
 ## Positions
-Anchorage's Connect ID is ```30C01```
+Chicago's Connect ID is ```30B01```
 |Frequency|Callsign|
 |-----------|----------|
 |118.3|Anchorage Tower|
@@ -14,4 +14,4 @@ Anchorage's Connect ID is ```30C01```
 |126.8|Lake Hood Tower|
 
 ## Additional Resources
-[Anchorage TRACON](docs/sops/anctracon.md)
+
