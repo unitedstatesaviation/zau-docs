@@ -117,8 +117,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Standard Operating Procedures',
-                to: '/docs/category/standard-operating-procedures',
+                label: 'Chicago Docs',
+                to: '/docs/intro.md',
               },
             ],
           },

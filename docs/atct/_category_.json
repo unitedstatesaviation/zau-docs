@@ -1,6 +1,6 @@
 {
-  "label": "Air Traffic Control Towers",
-  "position": 2,
+  "label": "Air Traffic Control Towers (ATCT)",
+  "position": 3,
   "link": {
     "type": "generated-index"
   }
